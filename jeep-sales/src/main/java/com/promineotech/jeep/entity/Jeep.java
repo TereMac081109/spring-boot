@@ -8,11 +8,18 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+//import lombok.EqualsAndHashCode;
+//import lombok.Getter;
+//import lombok.Setter;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+//@Getter
+//@Setter
+//@EqualsAndHashCode
+//@ToString
 public class Jeep {
   private Long modelPK;
   private JeepModel modelId;
